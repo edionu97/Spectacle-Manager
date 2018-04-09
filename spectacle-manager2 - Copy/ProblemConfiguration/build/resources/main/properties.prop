@@ -1,0 +1,6 @@
+driverToUse=com.mysql.jdbc.Driver
+connectionUrl=jdbc:mysql://localhost:3306/problema2db
+userDatabase=root
+passwordDatabase=1234
+serverPort=55555
+serverLocation=localhost

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemComProtocol.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemComProtocol.iml" group="ProblemComProtocol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemComProtocol/ProblemComProtocol_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemComProtocol/ProblemComProtocol_main.iml" group="ProblemComProtocol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemComProtocol/ProblemComProtocol_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemComProtocol/ProblemComProtocol_test.iml" group="ProblemComProtocol" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemConfiguration.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemConfiguration.iml" group="ProblemConfiguration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemConfiguration/ProblemConfiguration_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemConfiguration/ProblemConfiguration_main.iml" group="ProblemConfiguration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemConfiguration/ProblemConfiguration_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemConfiguration/ProblemConfiguration_test.iml" group="ProblemConfiguration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemDomain.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemDomain.iml" group="ProblemDomain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemDomain/ProblemDomain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemDomain/ProblemDomain_main.iml" group="ProblemDomain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemDomain/ProblemDomain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemDomain/ProblemDomain_test.iml" group="ProblemDomain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemNetworking.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemNetworking.iml" group="ProblemNetworking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemNetworking/ProblemNetworking_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemNetworking/ProblemNetworking_main.iml" group="ProblemNetworking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemNetworking/ProblemNetworking_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemNetworking/ProblemNetworking_test.iml" group="ProblemNetworking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemRepository.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemRepository.iml" group="ProblemRepository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemRepository/ProblemRepository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemRepository/ProblemRepository_main.iml" group="ProblemRepository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemRepository/ProblemRepository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemRepository/ProblemRepository_test.iml" group="ProblemRepository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemServer.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemServer.iml" group="ProblemServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemServer/ProblemServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemServer/ProblemServer_main.iml" group="ProblemServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemServer/ProblemServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemServer/ProblemServer_test.iml" group="ProblemServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemService.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemService.iml" group="ProblemService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemService/ProblemService_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemService/ProblemService_main.iml" group="ProblemService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProblemService/ProblemService_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProblemService/ProblemService_test.iml" group="ProblemService" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laborator.iml" filepath="$PROJECT_DIR$/.idea/modules/laborator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laborator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/laborator_main.iml" group="laborator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laborator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/laborator_test.iml" group="laborator" />
+    </modules>
+  </component>
+</project>

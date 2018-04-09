@@ -1,0 +1,9 @@
+rootProject.name = 'laborator'
+include 'ProblemDomain'
+include 'ProblemNetworking'
+include 'ProblemRepository'
+include 'ProblemServer'
+include 'ProblemService'
+include 'ProblemComProtocol'
+include 'ProblemConfiguration'
+

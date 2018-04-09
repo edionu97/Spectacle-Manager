@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.AngajatRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-03-18T08:50:08" hostname="Edy" time="0.244">
+  <properties/>
+  <testcase name="getAll" classname="Repository.AngajatRepositoryTest" time="0.214"/>
+  <testcase name="findByUserIdAndPassword" classname="Repository.AngajatRepositoryTest" time="0.015"/>
+  <testcase name="findById" classname="Repository.AngajatRepositoryTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

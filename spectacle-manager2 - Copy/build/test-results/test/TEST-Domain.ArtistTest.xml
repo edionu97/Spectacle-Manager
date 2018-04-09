@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Domain.ArtistTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-04-07T18:19:00" hostname="Edy" time="0.003">
+  <properties/>
+  <testcase name="setPrenume" classname="Domain.ArtistTest" time="0.001"/>
+  <testcase name="getCodA" classname="Domain.ArtistTest" time="0.0"/>
+  <testcase name="getNume" classname="Domain.ArtistTest" time="0.0"/>
+  <testcase name="setEmail" classname="Domain.ArtistTest" time="0.0"/>
+  <testcase name="getEmail" classname="Domain.ArtistTest" time="0.0"/>
+  <testcase name="setCodA" classname="Domain.ArtistTest" time="0.0"/>
+  <testcase name="setNume" classname="Domain.ArtistTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

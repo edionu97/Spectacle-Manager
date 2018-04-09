@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane fx:id="stackPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlers.MainWindowController">
+   <children>
+      <AnchorPane id="anchorPaneMainWindow" fx:id="anchorPane" prefHeight="499.0" prefWidth="800.0">
+         <children>
+            <TableView id="tableView" fx:id="tableView" layoutX="148.0" layoutY="39.0" prefHeight="440.0" prefWidth="600.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="160.0">
+              <columns>
+                <TableColumn id="customCell" fx:id="tableColumnName" prefWidth="143.0" text="Artist's name" />
+                <TableColumn id="customCell" fx:id="tableColumnDate" prefWidth="103.0" text="Show's date" />
+                  <TableColumn id="customCell" fx:id="tableColumnLocation" prefWidth="128.0" text="Show's location" />
+                  <TableColumn id="customCell" fx:id="tableColumnSeatsAv" prefWidth="115.0" text="Available seats" />
+                  <TableColumn id="customCell" fx:id="tableColumnSeatsB" prefWidth="110.0" text="Bougth seats" />
+              </columns>
+            </TableView>
+            <AnchorPane id="anchorPaneMain" layoutX="14.0" layoutY="136.0" prefHeight="500.0" prefWidth="120.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="680.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <JFXButton id="buttonSearchWindow" fx:id="buttonSearch" layoutY="110.0" prefHeight="63.0" prefWidth="120.0" text="Search" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0" />
+                  <JFXButton id="buttonSellWindow" fx:id="buttonSell" layoutY="197.0" prefHeight="63.0" prefWidth="120.0" text="Sell" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="197.0" />
+                  <JFXButton id="buttonLogoutWindow" fx:id="buttonLogout" layoutY="275.0" prefHeight="63.0" prefWidth="120.0" text="Logout" AnchorPane.bottomAnchor="162.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                  <Label id="labelUser" fx:id="labelUser" alignment="CENTER" layoutY="2.0" prefHeight="75.0" prefWidth="123.0" text="Eduard" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+               </children>
+            </AnchorPane>
+            <JFXButton id="mainWindowClose" fx:id="buttonClose" layoutX="740.0" layoutY="14.0" prefHeight="25.0" prefWidth="57.0" AnchorPane.rightAnchor="-10.0" AnchorPane.topAnchor="2.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

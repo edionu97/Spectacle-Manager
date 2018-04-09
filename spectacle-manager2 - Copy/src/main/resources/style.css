@@ -1,0 +1,189 @@
+#loginButtonId{
+    -fx-border-width: 0.5;
+    -fx-font-size: 17;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-background-color: #088837;
+    -fx-text-fill: #fcfcfc;
+}
+
+#loginLabel{
+    -fx-alignment:  center;
+    -fx-background-color: #D1D1D5;
+    -fx-text-fill: #80898B;
+    -fx-font-style: oblique;
+    -fx-font-weight: bold;
+    -fx-font-size: 17;
+}
+
+#logInTitleLabel{
+    -fx-alignment: center;
+    -fx-text-fill: #464646;
+    -fx-font-weight: bolder;
+    -fx-font-size: 21;
+}
+
+#loginExitButton{
+    -fx-content-display: graphic-only;
+    -fx-background-image: url("/Images/not.png");
+    -fx-background-size: 11px 11px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-min-width: 17;
+    -fx-max-height: 17;
+    -fx-min-height: 17;
+    -fx-max-width: 17;
+}
+
+#loginExitButton:hover{
+    -fx-border-color: black;
+    -fx-border-radius: 15;
+}
+
+#userPasswdLabel{
+    -fx-text-fill: darkred;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-font-style: italic;
+    -fx-font-size: 14;
+}
+
+
+#anchorPaneMainWindow{
+    -fx-background-image: url("/Images/festival.png");
+    -fx-background-position: center;
+}
+
+#anchorPaneSearchWindow{
+    -fx-background-color: #263347;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#tableView{
+    -fx-border-color: white;
+    -fx-focus-color: white;
+}
+
+#tableView .column-header-background .filler{
+    -fx-background-color: whitesmoke;
+}
+
+#tableView .column-header{
+    -fx-border-color: transparent transparent lightgray transparent;
+    -fx-border-width: 2;
+}
+
+.date-picker .text-field {
+    -fx-text-fill: whitesmoke;
+    -fx-prompt-text-fill: whitesmoke;
+    -jfx-unfocus-color:radial-gradient(radius 180%,grey,whitesmoke);
+}
+
+#tableView .thumb{
+    -fx-background-color: radial-gradient(radius 180%,black,whitesmoke);
+}
+
+#tableView .scroll-bar{
+    -fx-background-color: whitesmoke;
+}
+
+#tableView .column-header:hover{
+    -fx-border-radius: 0;
+}
+
+
+#customCell{
+    -fx-font-weight: normal;
+    -fx-font-size: 15;
+    -fx-alignment: center;
+    -fx-font-style: italic;
+}
+
+#anchorPaneMain{
+    -fx-background-color: #263347;
+}
+
+
+#buttonSearchWindow{
+    -fx-text-fill: whitesmoke;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-font-style: italic;
+
+    -fx-background-image: url("/Images/search.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25px 25px;
+    -fx-background-position:left 7px center;
+    -fx-padding: 0 0 0 20;
+}
+
+#buttonSellWindow{
+    -fx-text-fill: whitesmoke;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-font-style: italic;
+    -fx-background-image: url("/Images/ticket.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25px 25px;
+    -fx-background-position:left 7px center;
+    -fx-padding: 0 0 0 20;
+}
+
+#buttonLogoutWindow{
+    -fx-text-fill: whitesmoke;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-font-style: italic;
+    -fx-background-image: url("/Images/logout.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20px 20px;
+    -fx-background-position:left 7px center;
+    -fx-padding: 0 0 0 20;
+}
+
+#labelUser{
+    -fx-text-fill: whitesmoke;
+    -fx-font-size: 15;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent transparent whitesmoke transparent;
+    -fx-background-image: url("/Images/user.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25px 25px;
+    -fx-background-position:left 7px center;
+    -fx-padding: 0 0 0 20;
+}
+
+#mainWindowClose{
+
+    -fx-background-image: url("/Images/close.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+}
+
+
+#sellAnchorPane{
+    -fx-background-color: #263347;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 630px  500px;
+    -fx-background-position: center;
+}
+
+.error-label{
+    -fx-text-fill: #ff6976;
+}
+
+#customJfxText{
+    -fx-prompt-text-fill: gainsboro;
+    -fx-text-fill: whitesmoke;
+    -jfx-unfocus-color:gainsboro;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-background-color: #263347;
+}
+.date-picker-popup{
+    -fx-max-height: 20%;
+}

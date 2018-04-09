@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPaneSearchWindow" prefHeight="290.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlers.SearchController">
+   <children>
+      <TableView id="tableView" fx:id="tableView" layoutX="12.0" layoutY="23.0" prefHeight="224.0" prefWidth="373.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="25.0">
+        <columns>
+          <TableColumn id="customCell" fx:id="tableColumnName" prefWidth="99.0" text="Artist's name" />
+          <TableColumn id="customCell" fx:id="tableColumnLocation" prefWidth="84.0" text="Location" />
+            <TableColumn id="customCell" fx:id="tableColumnTime" prefWidth="74.0" text="Starts at" />
+            <TableColumn id="customCell" fx:id="tableColumnAv" prefWidth="115.0" text="Available seats" />
+        </columns>
+      </TableView>
+      <JFXDatePicker id="datepicker" fx:id="datePicker" defaultColor="#e1e1e1" layoutX="214.0" layoutY="247.0" promptText="Pick a date" />
+      <Label alignment="CENTER" layoutX="58.0" layoutY="-2.0" prefHeight="25.0" prefWidth="338.0" text="Search window" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

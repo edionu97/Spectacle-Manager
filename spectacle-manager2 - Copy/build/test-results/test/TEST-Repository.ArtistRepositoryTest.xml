@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.ArtistRepositoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-03-10T14:51:38" hostname="Edy" time="0.392">
+  <properties/>
+  <testcase name="delete" classname="Repository.ArtistRepositoryTest" time="0.228"/>
+  <testcase name="getAll" classname="Repository.ArtistRepositoryTest" time="0.015"/>
+  <testcase name="filterByPrenume" classname="Repository.ArtistRepositoryTest" time="0.01"/>
+  <testcase name="update" classname="Repository.ArtistRepositoryTest" time="0.045"/>
+  <testcase name="findById" classname="Repository.ArtistRepositoryTest" time="0.009"/>
+  <testcase name="filterByEmail" classname="Repository.ArtistRepositoryTest" time="0.008"/>
+  <testcase name="genericFilter" classname="Repository.ArtistRepositoryTest" time="0.016"/>
+  <testcase name="save" classname="Repository.ArtistRepositoryTest" time="0.037"/>
+  <testcase name="filterByNume" classname="Repository.ArtistRepositoryTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

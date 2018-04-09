@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPaneLogIn" fx:id="anchorPane" prefHeight="316.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlers.LoginController">
+   <children>
+      <BorderPane id="anchorPaneLogin" layoutX="94.0" layoutY="61.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane prefHeight="201.0" prefWidth="370.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton id="loginButtonId" fx:id="loginButton" layoutX="6.0" layoutY="186.0" prefHeight="34.0" prefWidth="310.0" text="Log in" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+                  <JFXTextField id="textFieldLogin" fx:id="textFieldUser" focusColor="#088837" labelFloat="true" layoutX="38.0" layoutY="22.0" prefHeight="27.0" prefWidth="294.0" promptText="Username" unFocusColor="#80898b" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="35.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </JFXTextField>
+                  <Label id="userPasswdLabel" fx:id="labelWrong" alignment="CENTER" layoutX="18.0" layoutY="-1.0" prefHeight="24.0" prefWidth="312.0" text="Cannot log you in" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="Consolas Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <JFXPasswordField id="textFieldLogin" fx:id="textFieldPassword" focusColor="#088837" labelFloat="true" layoutX="104.0" layoutY="101.0" prefHeight="26.0" prefWidth="294.0" promptText="Password" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="102.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </JFXPasswordField>
+               </children>
+            </AnchorPane>
+         </center>
+         <bottom>
+            <Label id="loginLabel" prefHeight="51.0" prefWidth="370.0" text="Can't log in? Contact your administrator" BorderPane.alignment="CENTER" />
+         </bottom>
+         <top>
+            <AnchorPane BorderPane.alignment="CENTER">
+               <children>
+                  <Label id="logInTitleLabel" alignment="CENTER" layoutX="76.0" layoutY="9.0" prefHeight="34.0" prefWidth="221.0" text="Log In" AnchorPane.topAnchor="9.0" />
+                  <JFXButton id="loginExitButton" fx:id="buttonExit" layoutX="304.0" layoutY="9.0" prefHeight="37.0" prefWidth="48.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0" />
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

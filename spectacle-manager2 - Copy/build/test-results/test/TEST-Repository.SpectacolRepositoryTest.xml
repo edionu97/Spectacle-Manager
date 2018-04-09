@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.SpectacolRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-03-10T14:51:38" hostname="Edy" time="0.041">
+  <properties/>
+  <testcase name="getAll" classname="Repository.SpectacolRepositoryTest" time="0.015"/>
+  <testcase name="findById" classname="Repository.SpectacolRepositoryTest" time="0.025"/>
+  <system-out><![CDATA[1 2018-03-15 20:00:00 piatra-neamt 10 5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

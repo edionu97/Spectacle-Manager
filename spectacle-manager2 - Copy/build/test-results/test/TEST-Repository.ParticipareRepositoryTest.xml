@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.ParticipareRepositoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-03-18T08:50:08" hostname="Edy" time="0.764">
+  <properties/>
+  <testcase name="delete" classname="Repository.ParticipareRepositoryTest" time="0.311"/>
+  <testcase name="getAll" classname="Repository.ParticipareRepositoryTest" time="0.006"/>
+  <testcase name="update" classname="Repository.ParticipareRepositoryTest" time="0.229"/>
+  <testcase name="findById" classname="Repository.ParticipareRepositoryTest" time="0.013"/>
+  <testcase name="save" classname="Repository.ParticipareRepositoryTest" time="0.139"/>
+  <testcase name="filterBySpecSDay" classname="Repository.ParticipareRepositoryTest" time="0.01"/>
+  <testcase name="getArtistById" classname="Repository.ParticipareRepositoryTest" time="0.011"/>
+  <testcase name="getSpectacolById" classname="Repository.ParticipareRepositoryTest" time="0.011"/>
+  <testcase name="filterBySpecDay" classname="Repository.ParticipareRepositoryTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.VanzariRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-03-18T08:50:09" hostname="Edy" time="0.186">
+  <properties/>
+  <testcase name="delete" classname="Repository.VanzariRepositoryTest" time="0.08"/>
+  <testcase name="getAll" classname="Repository.VanzariRepositoryTest" time="0.005"/>
+  <testcase name="getAngajatById" classname="Repository.VanzariRepositoryTest" time="0.01"/>
+  <testcase name="findById" classname="Repository.VanzariRepositoryTest" time="0.011"/>
+  <testcase name="save" classname="Repository.VanzariRepositoryTest" time="0.042"/>
+  <testcase name="getSpectacolById" classname="Repository.VanzariRepositoryTest" time="0.01"/>
+  <testcase name="getCumparatatorByName" classname="Repository.VanzariRepositoryTest" time="0.01"/>
+  <testcase name="getCumparatorById" classname="Repository.VanzariRepositoryTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

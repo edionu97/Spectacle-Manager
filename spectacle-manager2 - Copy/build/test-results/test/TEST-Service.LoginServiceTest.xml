@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Service.LoginServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-07T18:19:01" hostname="Edy" time="0.0">
+  <properties/>
+  <testcase name="canLogin" classname="Service.LoginServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'log4j2.debug' to show Log4j2 internal initialization logging.
+]]></system-err>
+</testsuite>

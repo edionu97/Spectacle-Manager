@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="testproblema2db">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="testproblema2db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="problema2db"/>
+    <schema id="7" parent="1" name="sakila"/>
+    <schema id="8" parent="1" name="sys"/>
+    <schema id="9" parent="1" name="world"/>
+    <table id="10" parent="2" name="angajati"/>
+    <table id="11" parent="2" name="artisti"/>
+    <table id="12" parent="2" name="cumparatori"/>
+    <table id="13" parent="2" name="participari"/>
+    <table id="14" parent="2" name="spectacole"/>
+    <table id="15" parent="2" name="vanzari"/>
+    <column id="16" parent="10" name="codAg">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="10" name="userId">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="10" name="userPasswd">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="19" parent="10" name="userId_UNIQUE">
+      <ColNames>userId</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="20" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>codAg</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="21" parent="10" name="userId_UNIQUE">
+      <ColNames>userId</ColNames>
+      <UnderlyingIndexName>userId_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="22" parent="11" name="codA">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="11" name="nume">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="11" name="prenume">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="11" name="email">
+      <Position>4</Position>
+      <DataType>varchar(80)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="26" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>codA</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="12" name="codC">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="12" name="nume">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="29" parent="12" name="aresa">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="30" parent="12" name="email">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <key id="31" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>codC</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="13" name="codA">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="13" name="codS">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="34" parent="13" name="codS">
+      <ColNames>codS</ColNames>
+    </index>
+    <key id="35" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>codA
+codS</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="36" parent="13" name="participari_ibfk_1">
+      <ColNames>codA</ColNames>
+      <RefSchemaName>testproblema2db</RefSchemaName>
+      <RefTableName>artisti</RefTableName>
+      <RefColNames>codA</RefColNames>
+    </foreign-key>
+    <foreign-key id="37" parent="13" name="participari_ibfk_2">
+      <ColNames>codS</ColNames>
+      <RefSchemaName>testproblema2db</RefSchemaName>
+      <RefTableName>spectacole</RefTableName>
+      <RefColNames>codS</RefColNames>
+    </foreign-key>
+    <column id="38" parent="14" name="codS">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="14" name="locatie">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="14" name="disp">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="41" parent="14" name="vandute">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="42" parent="14" name="seTinePe">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="43" parent="14" name="incepeLa">
+      <Position>6</Position>
+      <DataType>time|0</DataType>
+    </column>
+    <key id="44" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>codS</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="45" parent="15" name="codS">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="15" name="codC">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="15" name="vandute">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="48" parent="15" name="codAg">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="49" parent="15" name="codC">
+      <ColNames>codC</ColNames>
+    </index>
+    <index id="50" parent="15" name="codAg">
+      <ColNames>codAg</ColNames>
+    </index>
+    <key id="51" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>codS
+codC</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="52" parent="15" name="vanzari_ibfk_1">
+      <ColNames>codS</ColNames>
+      <RefSchemaName>testproblema2db</RefSchemaName>
+      <RefTableName>spectacole</RefTableName>
+      <RefColNames>codS</RefColNames>
+    </foreign-key>
+    <foreign-key id="53" parent="15" name="vanzari_ibfk_2">
+      <ColNames>codC</ColNames>
+      <RefSchemaName>testproblema2db</RefSchemaName>
+      <RefTableName>cumparatori</RefTableName>
+      <RefColNames>codC</RefColNames>
+    </foreign-key>
+    <foreign-key id="54" parent="15" name="vanzari_ibfk_3">
+      <ColNames>codAg</ColNames>
+      <RefSchemaName>testproblema2db</RefSchemaName>
+      <RefTableName>angajati</RefTableName>
+      <RefColNames>codAg</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

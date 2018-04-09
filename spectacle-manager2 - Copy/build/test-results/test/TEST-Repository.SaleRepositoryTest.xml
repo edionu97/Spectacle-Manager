@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.SaleRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-04-07T18:19:00" hostname="Edy" time="0.142">
+  <properties/>
+  <testcase name="delete" classname="Repository.SaleRepositoryTest" time="0.04"/>
+  <testcase name="getAll" classname="Repository.SaleRepositoryTest" time="0.009"/>
+  <testcase name="getAngajatById" classname="Repository.SaleRepositoryTest" time="0.01"/>
+  <testcase name="findById" classname="Repository.SaleRepositoryTest" time="0.013"/>
+  <testcase name="save" classname="Repository.SaleRepositoryTest" time="0.033"/>
+  <testcase name="getSpectacolById" classname="Repository.SaleRepositoryTest" time="0.011"/>
+  <testcase name="getCumparatatorByName" classname="Repository.SaleRepositoryTest" time="0.01"/>
+  <testcase name="getCumparatorById" classname="Repository.SaleRepositoryTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

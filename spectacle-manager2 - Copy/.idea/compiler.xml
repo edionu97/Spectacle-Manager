@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="laborator_main" target="1.8" />
+      <module name="laborator_test" target="1.8" />
+      <module name="ProblemComProtocol_main" target="1.8" />
+      <module name="ProblemComProtocol_test" target="1.8" />
+      <module name="ProblemConfiguration_main" target="1.8" />
+      <module name="ProblemConfiguration_test" target="1.8" />
+      <module name="ProblemDomain_main" target="1.8" />
+      <module name="ProblemDomain_test" target="1.8" />
+      <module name="ProblemNetworking_main" target="1.8" />
+      <module name="ProblemNetworking_test" target="1.8" />
+      <module name="ProblemRepository_main" target="1.8" />
+      <module name="ProblemRepository_test" target="1.8" />
+      <module name="ProblemServer_main" target="1.8" />
+      <module name="ProblemServer_test" target="1.8" />
+      <module name="ProblemService_main" target="1.8" />
+      <module name="ProblemService_test" target="1.8" />
+      <module name="Server_main" target="1.8" />
+      <module name="Server_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
